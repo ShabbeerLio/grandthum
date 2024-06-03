@@ -34,18 +34,18 @@ const Form = () => {
             setMessageSent(false);
         }, 2500);
 
-        // emailjs.sendForm(
-        //     'service_doayfq4',
-        //     'template_vi0ghkl',
-        //     form.current,
-        //     'Iejd5R2PTV0wvsSiQ'
-        // )
-        //     .then((result) => {
-        //         console.log(result.text);
-        //         console.log("message sent")
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        emailjs.sendForm(
+            'service_doayfq4',
+            'template_vi0ghkl',
+            form.current,
+            'Iejd5R2PTV0wvsSiQ'
+        )
+            .then((result) => {
+                console.log(result.text);
+                console.log("message sent")
+            }, (error) => {
+                console.log(error.text);
+            });
 
         // Access the user's name, email, and message from the formData state
         const { user_name, user_number, user_email, message } = formData;

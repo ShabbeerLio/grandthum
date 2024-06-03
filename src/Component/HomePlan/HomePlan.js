@@ -5,12 +5,6 @@ import HomePlanCard from './HomePlanCard'
 
 const HomePlan = () => {
 
-    const toTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'auto'
-        });
-    }
     return (
         <div className='HomePlan'>
             <div className='HomePlan-main'>

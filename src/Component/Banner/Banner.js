@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import bannerimg from "../../Assets/Banner/banner.jpg"
 import "./Banner.css"
 
-import { FaBriefcase, FaCartShopping, FaMugSaucer, FaBed } from "react-icons/fa6";
+import { FaBriefcase, FaCartShopping, } from "react-icons/fa6";
 
 const Banner = () => {
 
