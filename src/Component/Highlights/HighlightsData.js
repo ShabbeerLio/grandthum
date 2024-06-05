@@ -1,51 +1,51 @@
 const HighlightsData = [
     {
         id: 1,
-        detail: "88 lifts in the project, experience nearly zero waiting time",
+        detail: "Amenities Bhutani Grandthum offers a plethora of amenities to enhance your lifestyle:",
     },
     {
         id: 2,
-        detail: "Convenient drop-off points located inside the project",
+        detail: "Wifi: Stay connected with high-speed internet throughout the complex",
     },
     {
         id: 3,
-        detail: "Sky bridges seamlessly connecting the first floor of each tower.",
+        detail: "Club House: Relax and socialize at our exclusive club house.",
     },
     {
         id: 4,
-        detail: "Double Height Shops on the Ground for an elevated retail experience.",
+        detail: "ATM: Convenient banking services on-site.",
     },
     {
         id: 5,
-        detail: "Direct metro connectivity enhances accessibility",
+        detail: "Gym: Stay fit and healthy with our fully-equipped gym.",
     },
     {
         id: 6,
-        detail: "Close proximity to FNG and Noida Greater Noida Expressway for seamless travel connections",
+        detail: "Coffee House: Enjoy a cup of coffee in a cozy, inviting atmosphere.",
     },
     {
         id: 7,
-        detail: "Avail bank loans from ICICI Bank & Axis Bank for convenient financing options",
+        detail: "Parking: Ample parking space for your convenience.",
     },
     {
         id: 8,
-        detail: "Green area featuring a spacious 42-meter-wide bay for serene surroundings.",
+        detail: "Pool: Take a refreshing dip in our swimming pool.",
     },
     {
         id: 9,
-        detail: "Ample car parking space available for residents and visitors.",
+        detail: "Power Backup: Uninterrupted power supply to keep you going.",
     },
     {
         id: 9,
-        detail: "Enjoy User 3 Tier Securities for utmost safety and peace of mind",
+        detail: "Restaurant: Diverse dining options to cater to your cravings.",
     },
     {
         id: 9,
-        detail: "Experience a 150-seat capacity auditorium for events and gatherings.",
+        detail: "Sports: Engage in various sports activities and stay active.",
     },
     {
         id: 9,
-        detail: "Triple-height entrance lobby offers a grand welcome to residents and guests.",
+        detail: "Security: 24/7 security to ensure your safety. Movie Theater: A cinematic experience like no other.",
     },
 ]
 

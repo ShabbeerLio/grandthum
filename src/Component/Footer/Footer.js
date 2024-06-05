@@ -67,16 +67,16 @@ const Footer = (props) => {
                         </ul>
                     </div>
                     <div className="footer-item">
-                        <p>Block A, Plot No. 01, Sector 140A, Noida, Uttar Pradesh 201301</p>
+                        <p>Plot no -7 Sector, Techzone 4, Greater Noida, Uttar Pradesh 201308</p>
                     </div>
                     <div className="footer-item">
-                        <p>info@fairfoxeonoida.com</p>
+                        <p>info@grandthumofficespace.com</p>
                     </div>
                 </div>
             </div>
             <div className="footer-down">
                 <div className="footer-copyright">
-                    <p>©2024. Fairfox EON Noida All Rights Reserved. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
+                    <p>©2024. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
                     {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
                 </div>
             </div>

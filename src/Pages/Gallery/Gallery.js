@@ -92,7 +92,7 @@ const Gallery = (props) => {
                         </div>
                     </div>
                     <div className="gallery-box2">
-                        {GalleryData.slice(5, 9).map((item) => (
+                        {GalleryData.slice(5).map((item) => (
                             <img key={item.id} src={item.cover} alt={item.alttag} onClick={() => getImg(item.cover)} />
                         ))}
                     </div>

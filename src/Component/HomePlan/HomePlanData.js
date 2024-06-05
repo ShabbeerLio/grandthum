@@ -1,31 +1,38 @@
 const HomePlanData = [
     {
         id: 1,
-        title: "Grand Double Height Entrance Tower",
-        desc: "Make a lasting impression from the moment your clients and visitors step into FAIRFOX EON. Our grand triple height entrance lobby, standing tall at 30 feet, sets the stage for a prestigious business environment. Impress with elegance and sophistication as you welcome guests into a space that exudes professionalism and style.",
+        title: "Life Uplifts Here",
+        desc: "Bhutani Grandthum is more than just a place to work and shop; it's a lifestyle destination. Life uplifts here with unparalleled amenities and conveniences, ensuring you experience the best in comfort and luxury.",
         cover: require("../../Assets/Homeplan/Homeplans1.jpg"),
         alttag: "bhutani grandthum possession"
     },
     {
         id: 2,
-        title: "Grandthum Mypod",
-        desc: "Elevate the dining experience for your employees and clients with our exclusive food terraces. Whether it's a power lunch, casual meeting, or simply unwinding after a productive day, these inviting spaces provide the perfect setting to indulge in culinary delights. Enjoy al fresco dining with panoramic views, fostering camaraderie and collaboration in a relaxed ambiance.",
+        title: "An Adrenaline Rush Fills Every Day Here",
+        desc: "With numerous activities and entertainment options, every day at Bhutani Grandthum is filled with excitement and energy. An adrenaline rush fills every day here, making life dynamic and exhilarating.",
         cover: require("../../Assets/Homeplan/Homeplans2.jpg"),
         alttag: "bhutani grandthum construction update"
     },
     {
         id: 3,
-        title: "Grandthum Anchor Spaces",
-        desc: "Engage, entertain, and inspire with our state-of-the-art amphitheatre, designed to host corporate events, product launches, and cultural performances. Create memorable experiences for your audience amidst the scenic backdrop of FAIRFOX EON. From corporate presentations to live entertainment, our amphitheatre offers a versatile platform to showcase your brand and captivate your audience.",
-        cover: require("../../Assets/Homeplan/Homeplans3.jpg"),
+        title: "Time Slows Down in a Yacht Here",
+        desc: "Escape the hustle and bustle as time slows down in a yacht here. Bhutani Grandthum offers unique experiences that allow you to unwind and relax amidst serene surroundings.",
+        cover: require("../../Assets/About/about1.jpg"),
         alttag: "bhutani grandthum price"
     },
     {
         id: 4,
-        title: "Grandthum Shopping Arcade",
-        desc: "Escape the hustle and bustle of the corporate world and immerse yourself in the tranquility of our central inner grove and mound. This serene oasis provides a refreshing retreat for employees and visitors alike, offering a peaceful sanctuary amidst lush greenery and calming water features. Foster creativity, relaxation, and well-being in a natural environment that rejuvenates the mind and soul.",
+        title: "Design Opens New Avenues Here",
+        desc: "The innovative design of Bhutani Grandthum opens new avenues, providing a harmonious blend of aesthetics and functionality. Bhutani Grandthum, where design opens new avenues here, ensuring a visually stunning and practical environment.",
         cover: require("../../Assets/Homeplan/Homeplans4.jpg"),
         alttag: "bhutani grandthum price list"
-    }
+    },
+    {
+        id: 5,
+        title: "Green and Sustainable",
+        desc: " Bhutani Grandthum is proud to have received the IGBC Green New Buildings Precertification (Tenant-occupied) for our commitment to sustainability and eco-friendly practices. Our project in Greater Noida is designed to reduce environmental impact and promote a healthier living and working environment.",
+        cover: require("../../Assets/Homeplan/Homeplans3.jpg"),
+        alttag: "bhutani grandthum price list"
+    },
 ]
 export default HomePlanData;

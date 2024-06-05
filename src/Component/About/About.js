@@ -17,7 +17,7 @@ const About = () => {
             <div className="about-title">
                 <h1>GRANDTHUM</h1>
                 <p>Rera No : UPRERAPRJ585534</p>
-                <span>Office Space and Retail Shop Noida Sector 142</span>
+                <span>Office Space and Retail Shop in Greater Noida West</span>
                 <h4>Office Space: ₹7,000/sqft | Retail Shop: ₹30,000/sqft</h4>
             </div>
             <div className="about-main">
@@ -25,8 +25,8 @@ const About = () => {
                     <div className="about-left">
                         <div className="about-detail">
                             {/* <h3>FAIRFOX EON NOIDA, Sector 140 Noida Expressway</h3> */}
-                            <p>The One FNG project, crafted by Group 108, stands out for its exceptional infrastructure and prime location. Its modern architecture and innovative design cater to the diverse needs of businesses, creating an ideal environment for corporate offices and retail outlets. The project also emphasizes sustainability with energy-efficient systems and lush green landscapes.</p>
-                            <p> Its proximity to metro stations and major roadways ensures seamless connectivity, making it a preferred choice for entrepreneurs and established enterprises looking to establish a presence in Noida.</p>
+                            <p>Welcome to Bhutani Grandthum, a landmark development located in Greater Noida West, at the heart of growth and opportunity. This premier destination offers state-of-the-art workspaces that present new opportunities, fostering creativity and productivity in a vibrant environment.</p>
+                            <p>At Bhutani Grandthum, life elevates as spaces create endless possibilities. Whether you're looking for dynamic office spaces, diverse retail options, or world-class amenities, Bhutani Grandthum provides everything you need in one place, making it the ultimate hub for both work and leisure.</p>
                         </div>
                         <div className="about-button">
                             <Link to="/site-visit" onClick={toTop}>

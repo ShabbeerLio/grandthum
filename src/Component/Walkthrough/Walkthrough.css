@@ -24,8 +24,20 @@
 }
 
 .walkthrough-left {
+  grid-gap: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
   width: 70%;
 }
+
+.walktrough-card img {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
 .walkthrough-left iframe {
   width: 100%;
   height: 100%;
@@ -63,4 +75,9 @@
     .category-card {
       height: 200px;
     }
+
+    .walkthrough-left {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
   }
