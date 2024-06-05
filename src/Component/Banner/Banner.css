@@ -141,7 +141,7 @@
 
   .banner-card {
     color: white;
-    background-color: #283664;
+    background-color: #1a667a;
     padding: 20px 10px;
   }
   .banner-heading {
@@ -178,5 +178,8 @@
 
   .banner-card-detail {
     width: 100%;
+  }
+  .banner-card h4:after {
+    background-color: white;
   }
 }
