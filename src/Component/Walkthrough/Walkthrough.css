@@ -35,7 +35,7 @@
   border-radius: 8px;
   object-fit: cover;
   width: 100%;
-  aspect-ratio: 2/1;
+  /* aspect-ratio: 2/1; */
 }
 
 .walkthrough-left iframe {

@@ -371,13 +371,18 @@
   }
 }
 @media only screen and (max-width: 540px) {
+
+  .navBar {
+    top: 0;
+  }
+
   .company-logo img {
     max-height: 80px;
   }
 
-  .company-logo img {
+  /* .company-logo img {
     padding: 15px 0px;
-  }
+  } */
   .fix-icon-enquery {
     right: -15%;
   }
