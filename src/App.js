@@ -10,28 +10,29 @@ import PriceList from "./Pages/PriceList/PriceList";
 import MasterPlan from "./Pages/MasterPlan/MasterPlan";
 import FloorPlan from "./Pages/FloorPlan/FloorPlan";
 import SiteVisit from "./Pages/SiteVisit/SiteVisit";
+import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
   // remove inspect and copy element
-   useEffect(() => {
-    const handleRightClick = (e) => {
-      e.preventDefault();
-    };
+  //  useEffect(() => {
+  //   const handleRightClick = (e) => {
+  //     e.preventDefault();
+  //   };
 
-    const handleSelect = (e) => {
-      e.preventDefault();
-      return false;
-    };
+  //   const handleSelect = (e) => {
+  //     e.preventDefault();
+  //     return false;
+  //   };
 
-    document.addEventListener('selectstart', handleSelect);
-    document.addEventListener('contextmenu', handleRightClick);
+  //   document.addEventListener('selectstart', handleSelect);
+  //   document.addEventListener('contextmenu', handleRightClick);
 
-    return () => {
-      document.removeEventListener('contextmenu', handleRightClick);
-      document.removeEventListener('selectstart', handleSelect);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener('contextmenu', handleRightClick);
+  //     document.removeEventListener('selectstart', handleSelect);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -73,6 +74,11 @@ function App() {
             exact
             element={
               <SiteVisit title={"Bhutani Grandthum Noida Extension | Grandthum Office Spaces"} descriptions={"Bhutani Grandthum, a landmark development located in Greater Noida West, where you can opt for Office Spaces. Call Us Now for Site Visit Today."} />} />
+          <Route
+            path="/disclaimer"
+            exact
+            element={
+              <Disclaimer title={"Bhutani Grandthum Noida Extension | Grandthum Office Spaces"} descriptions={"Bhutani Grandthum, a landmark development located in Greater Noida West, where you can opt for Office Spaces. Call Us Now for Site Visit Today."} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

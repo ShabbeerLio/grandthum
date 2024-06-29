@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Footer.css"
 import footerimg from "../../Assets/logo-removebg-preview.png";
 import { Link } from 'react-router-dom'
 
 const Footer = (props) => {
+
+    const [showFullText, setShowFullText] = useState(false);
+
+    const toggleText = () => {
+        setShowFullText(!showFullText);
+    };
 
     const toTop = () => {
         window.scrollTo({
@@ -72,14 +78,29 @@ const Footer = (props) => {
                     <div className="footer-item">
                         <p>info@grandthumofficespace.com</p>
                     </div>
+                    <div className="footer-item-disclaimer">
+                        {showFullText ? (
+                            <>
+                                <p>
+                                    This website is intended for informational purpose only and should not be considered the official site. This is not an offer, an invitation to offer and/or commitment of any nature. The images includes artistic impressions and stock images. The Designs, dimensions, cost, facilities, plans, images, specifications, furniture, accessories, paintings, items, electronic goods, additional fittings/fixtures, decorative items, false ceiling including finishing materials, specifications, shades, sizes and colour of the tiles and other details shown in the images are only indicative in nature and are only for the purpose of illustrating/indicating a possible layout and do not form part of the standard specifications/amenities/services to be provided in the flat. Recipients are advised to use their discretion in relying on the information/amenities described/shown therein.
+                                </p>
+                                <p className='disclaimer' onClick={toggleText}>Read Less</p>
+                            </>
+                        ) : (
+                            <>
+                                <p>
+                                    This website is intended for informational purpose only and should not be considered the official site. This is not an offer, an invitation to offer and/or commitment of any nature. The images includes artistic impressions and stock images......
+                                </p>
+                                <p className='disclaimer' onClick={toggleText}>Read More</p>
+                            </>
+                        )}
+                    </div>
+                    <div className="footer-item-policy">
+                        <Link onClick={toTop} to={"/disclaimer"}>Disclaimer & Privacy Policy</Link>
+                    </div>
                 </div>
             </div>
-            <div className="footer-down">
-                <div className="footer-copyright">
-                    <p>©2024. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
-                    {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
-                </div>
-            </div>
+
         </div>
     )
 }
